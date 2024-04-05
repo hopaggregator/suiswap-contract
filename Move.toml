@@ -1,10 +1,10 @@
 [package]
 name = "Suiswap"
 version = "0.1.0"
-published-at = "0x319ecd39e76eec9dc32f51f596a37f5b5ed2a28ef55e82ec014ae654b4e3ac2a"
+published-at = "0xd47b9522139a08c69712b9666206ff84925a3173695de64e58e193957acb3db2"
 
 [dependencies]
 Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/mainnet" }
 
 [addresses]
-suiswap = "0x319ecd39e76eec9dc32f51f596a37f5b5ed2a28ef55e82ec014ae654b4e3ac2a"
+suiswap = "0x361dd589b98e8fcda9a7ee53b85efabef3569d00416640d2faa516e3801d7ffc"
