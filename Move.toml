@@ -1,9 +1,10 @@
 [package]
 name = "Suiswap"
 version = "0.1.0"
+published-at = "0x361dd589b98e8fcda9a7ee53b85efabef3569d00416640d2faa516e3801d7ffc"
 
 [dependencies]
-Sui = { local = "./submodules/sui/crates/sui-framework/packages/sui-framework" }
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "framework/mainnet" }
 
 [addresses]
 suiswap = "0x0"
